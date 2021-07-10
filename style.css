@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(250, 246, 246);
+    background-size: cover;
+    
+}
+.Login-form {
+    width: 450px;
+    height: 500px;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(240, 233, 233); 
+    background-color: rgb(71, 30, 146);
+  
+
+}
+.Login-form {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.Login-form p {
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+.Login-form h1{
+    color: crimson;
+    margin-top: 30px;
+}
+.Login-form input {
+    font-size: 15px;
+    width: 340px;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+   
+}
+.Login-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.Login-form button:hover {
+ 
+    background-color: blueviolet;
+}
